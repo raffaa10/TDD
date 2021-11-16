@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class OrderTest {
 
-    
+    /*
     @Test
     void testOrder() {
 
@@ -16,7 +16,37 @@ public class OrderTest {
         assertNotEquals(0.0, orderSum);
 
     }
+     */
 
+    @Test
+    void testOrder1() {
+
+        Order sut = new Order(new Plat( "Plat1", 7.0));
+
+        double orderSum =  sut.getPlat().getPrice();
+
+        assertNotEquals(0.0, orderSum);
+    }
+
+    @Test
+    void testOrder2() {
+
+        Order sut = new Order(new Plat( "Plat1", 7.0));
+
+        double orderSum =  sut.getPlat().getPrice();
+
+        assertEquals(7.0, orderSum);
+    }
+
+
+    @Test
+    void testOrder3() {
+        Order sut = new Order(new Plat( "Plat1", 7.0), 2);
+
+        double orderSum = sut.getPlat().getPrice();
+
+        assertEquals(14.0, orderSum);
+    }
 
 
 
