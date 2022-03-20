@@ -1,0 +1,9 @@
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 2, 45, 1);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 1, 27, 1);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 0, 38, 2);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 2, 98, 2);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 0, 150, 1);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 1, 14, 3);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 0, 32, 2);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 2, 75, 3);
+INSERT INTO orders (date, order_status, total_price, un_paid_order_state) VALUES(NOW(), 2, 7, 1);
